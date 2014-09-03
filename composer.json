@@ -1,0 +1,17 @@
+{
+    "name": "przemos/json-mapper",
+    "description": "JSON mapper used to map objects to/from JSON compatible arrays",
+    "require": {
+        "php": ">=5.4"
+    },
+    "autoload": {
+        "psr-0": {
+            "JsonMapper\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-0": {
+            "JsonMapperTest\\": "test/"
+        }
+    }
+}
